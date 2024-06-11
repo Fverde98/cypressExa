@@ -1,0 +1,19 @@
+{
+  "name": "automationqa",
+  "version": "1.0.0",
+  "description": "automation cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "e2e"
+  ],
+  "author": "fverde",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.10.0"
+  }
+}
