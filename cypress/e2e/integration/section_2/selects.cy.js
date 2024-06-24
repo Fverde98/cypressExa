@@ -8,7 +8,7 @@ describe('Nueva seccion checbok', () => {
     });
     it('check two', () => {
         cy.visit('https://www.google.com/?hl=es')
-        cy.title().should('eq','Google')
+        cy.title().should('eq','Googlee')
         cy.wait(1500)
         cy.get('[name="q"]').should('be.visible').type('ferrari').type('{enter}')
         cy.get('#jZ2SBf > .wM6W7d > span').click()
