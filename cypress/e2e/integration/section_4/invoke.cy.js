@@ -54,7 +54,7 @@ describe('manejo Invoke', () => {
     });
     it.only('Invoke target', () => {
         cy.visit('https://dvwa.co.uk/')
-        cy.title().should('eq', 'dvwa.co.uk')
+        cy.title().should('eq', 'dvwa.co.ukd')
         cy.wait(1500)  
         cy.get('#si144').invoke('removeAttr','target').click({force:true})
     
